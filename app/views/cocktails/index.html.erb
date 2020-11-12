@@ -1,8 +1,13 @@
-<h1>Cocktails</h1>
-
-<ul>
-<% @cocktails.each do |cocktail| %>
-  <li> <%= cocktail.name %> </li>
-<% end %>
+<div class="container">
+  <h1>Cocktails</h1>
+  <div class="cards">
+    <% @cocktails.each do |cocktail| %>
+      <div class="card-category" >
+        <div class="cocktail-name"><%= cocktail.name %></div>
+        <%= link_to "Show recipe", cocktail_path(cocktail), class: "btn btn-info" %>
+      </div>
+    <% end %>
+  </div>
+</div>
 
 </ul>

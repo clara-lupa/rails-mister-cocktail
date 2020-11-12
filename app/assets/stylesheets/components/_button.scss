@@ -1,0 +1,22 @@
+.btn {
+  border-radius: 4px;
+  border: 1px solid;
+}
+
+.btn-opaque {
+  opacity: 0.7
+}
+
+.btn-border {
+  background-color: transparent;
+  border-color: white;
+  color: transparent;
+}
+
+.btn-info {
+  background-color: $info;
+  border-color: $info;
+  color: $primary;
+  opacity: 0.7;
+}
+
