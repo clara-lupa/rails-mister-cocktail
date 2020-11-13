@@ -13,7 +13,18 @@ Ingredient.create(name: "crushed ice")
 Ingredient.create(name: "rum")
 Ingredient.create(name: "spicy ginger")
 Ingredient.create(name: "cane sugar")
+Ingredient.create(name: "gin")
+Ingredient.create(name: "limes")
+Ingredient.create(name: "lemon juice")
+Ingredient.create(name: "sugar syrup")
+Ingredient.create(name: "soda")
+Ingredient.create(name: "tonic")
+Ingredient.create(name: "cachaca")
+
+
 
 Cocktail.create(name: "Mojito")
 Cocktail.create(name: "Dark and Stormy")
+Cocktail.create(name: "Caipirinha")
+
 
