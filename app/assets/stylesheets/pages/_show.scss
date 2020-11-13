@@ -1,4 +1,12 @@
 ul {
-  text-align: center;
   list-style: none;
+  width: 400px;
+  text-align: left;
+  padding: 0;
+  margin-left: 16px;
+}
+
+.cocktail-details {
+  display: flex;
+  justify-content: center;
 }

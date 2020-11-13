@@ -3,9 +3,17 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
+  margin: 50px auto;
 }
 
 h1 {
   text-align: center;
   margin: 16px;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
 }

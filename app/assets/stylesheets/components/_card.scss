@@ -1,7 +1,5 @@
 .card-category {
-  background-image: asset-url("cocktail1.jpg"), linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
-  background-size: cover;
-  background-position: center;
+  background-color: $info;
   height: 180px;
   display: flex;
   flex-direction: column;

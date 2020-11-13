@@ -1,4 +1,4 @@
-<header>   <%= link_to "All cocktails", cocktails_path, class: "btn btn-primary" %></header>
+<header>   <%= link_to "All cocktails", cocktails_path, class: "btn btn-info" %></header>
 
 <div class="container">
 
@@ -6,7 +6,8 @@
 
   <%= simple_form_for @cocktail do |f|%>
     <%= f.input :name %>
-    <%= f.submit "Add" %>
+    <%= f.input :photo, as: :file %>
+    <%= f.submit "Add", class: "btn btn-info" %>
   <% end %>
 
 </div>
