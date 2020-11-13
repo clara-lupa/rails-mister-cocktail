@@ -1,0 +1,13 @@
+header {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  height: 30vh;
+  .btn{
+    position: absolute;
+    right: 30px;
+  }
+  background-image: asset-url("header.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
