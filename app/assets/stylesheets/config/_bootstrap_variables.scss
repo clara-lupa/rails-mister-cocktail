@@ -6,16 +6,16 @@
 // General style
 $font-family-sans-serif:  $body-font;
 $headings-font-family:    $headers-font;
-$body-bg:                 $dark-brown;
+$body-bg:                 $charcoal;
 $font-size-base: 1rem;
 
 // Colors
-$body-color: $champagne;
-$primary:    $light-brown;
-$success:    $teal-blue;
-$info:       $champagne;
-$danger:     $medium-brown;
-$warning:    $medium-brown;
+$body-color: $gainsboro;
+$primary:    $cultured;
+$success:    $celadon-green;
+$info:       $champagne-pink;
+$danger:     $space-cadet;
+$warning:    $silver;
 
 // Buttons & inputs' radius
 $border-radius:    2px;
@@ -23,3 +23,11 @@ $border-radius-lg: 2px;
 $border-radius-sm: 2px;
 
 // Override other variables below!
+
+// $champagne-pink: rgba(227, 197, 187, 1);
+// $celadon-green: rgba(33, 137, 126, 1);
+// $gainsboro: rgba(219, 227, 229, 1);
+// $silver: rgba(204, 198, 200, 1);
+// $charcoal: rgba(57, 62, 70, 1);
+// $cultured: rgba(238, 238, 238, 1);
+// $space-cadet: rgba(32, 44, 89, 1);
